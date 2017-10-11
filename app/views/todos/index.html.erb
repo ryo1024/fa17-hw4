@@ -1,0 +1,7 @@
+ <% @todos.each do |todo| %>
+    
+        <%= link_to(todo.tasks, todos_new_path)%>
+
+        <%= link_to(todo.finished, todos_new_path)%>
+    <br/>
+  <% end %>

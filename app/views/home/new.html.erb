@@ -1,0 +1,27 @@
+
+
+<h1> Here is your data </h1>
+
+ <% @todos.each do |todo| %>
+    
+        <%= todo.tasks%>
+
+        <%= todo.finished%>
+    <br/>
+  <% end %>
+
+   <% @cats.each do |cat| %>
+    
+        <%= cat.name%>
+    <br/>
+  <% end %>
+
+ <% @users.each do |user| %>
+    
+        <%= user.name %>
+
+        <%= user.email %>
+
+        <%= user.age %>
+    <br/>
+  <% end %>

@@ -1,0 +1,9 @@
+ <% @users.each do |user| %>
+    
+        <%= link_to(user.name, users_new_path)%>
+
+        <%= link_to(user.email, users_new_path%>
+
+        <%= link_to(user.age, users_new_path)%>
+    <br/>
+  <% end %>

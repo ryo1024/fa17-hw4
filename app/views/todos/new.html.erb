@@ -1,0 +1,7 @@
+<%= form_for @todo, url: todos_new_path(@todo) do |f| %>
+  <%= f.label :tasks%>:
+  <%= f.text_field :tasks %><br />
+  <%= f.label :finished %>:
+  <%= f.text_field :finished %><br />
+  <%= f.submit %>
+<% end %>
